@@ -1,0 +1,32 @@
+# Build directories
+build/
+_build/
+cmake-build-*/
+
+# Compiled files
+*.o
+*.so
+*.a
+*.exe
+*.dll
+
+# Vala generated files
+*.c
+*.h
+*.vapi
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
