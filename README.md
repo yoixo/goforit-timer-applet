@@ -16,17 +16,18 @@ nohup cinnamon --replace &
 
 ```
 goforit-timer-applet/
-├── goforit-timer@local/     # Cinnamon applet files
-│   ├── applet.js            # Main applet code
-│   ├── metadata.json        # Applet metadata
-│   ├── README.md            # Applet documentation
-│   └── install.sh           # Installation script
-├── go-for-it-dbus/          # Go-For-It! DBus patches
-│   ├── TimerDBusService.vala
-│   ├── Main.vala
-│   ├── go-for-it.vala
-│   └── CMakeLists.txt
-└── README.md                # This file
+├── goforit-timer@local/          # Cinnamon applet files
+│   ├── applet.js                 # Main applet code
+│   ├── metadata.json             # Applet metadata
+│   ├── README.md                 # Applet documentation
+│   └── install.sh                # Installation script
+├── go-for-it-dbus/               # Go-For-It! DBus patches
+│   ├── TimerDBusService.vala     # DBus service implementation
+│   ├── apply-dbus-patches.sh     # Automated patching script ⭐
+│   └── README.md                 # Patching instructions
+├── README.md                     # This file
+├── install.sh                    # Main installation script
+└── LICENSE                       # GPL v3 License
 ```
 
 ## Prerequisites
@@ -39,7 +40,7 @@ goforit-timer-applet/
 ### Option 1: Automated Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/goforit-timer-applet.git
+git clone https://github.com/yoixo/goforit-timer-applet.git
 cd goforit-timer-applet
 ./install.sh
 ```
@@ -48,7 +49,7 @@ cd goforit-timer-applet
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/goforit-timer-applet.git
+git clone https://github.com/yoixo/goforit-timer-applet.git
 cd goforit-timer-applet
 
 # Install applet
@@ -74,26 +75,18 @@ nohup cinnamon --replace &
 
 ## Building Go-For-It! with DBus Support
 
-See the `go-for-it-dbus/` directory for the complete DBus integration patches.
+Go-For-It! needs to be patched to expose the timer via DBus.
 
-### Quick Build Instructions
+### Automated (Recommended)
 
 ```bash
 cd go-for-it-dbus
-
-# Apply patches to Go-For-It! source
-cp TimerDBusService.vala /path/to/go-for-it/src/Services/
-cp Main.vala /path/to/go-for-it/src/
-cp go-for-it.vala /path/to/go-for-it/executable/
-cp CMakeLists.txt /path/to/go-for-it/src/
-
-# Build and install
-cd /path/to/go-for-it
-rm -rf build && mkdir build && cd build
-cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-make -j$(nproc)
-sudo make install && sudo ldconfig
+./apply-dbus-patches.sh
 ```
+
+### Manual
+
+See the `go-for-it-dbus/` directory for manual patching instructions.
 
 ## Features
 

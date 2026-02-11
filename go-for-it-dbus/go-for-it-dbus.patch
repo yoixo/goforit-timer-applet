@@ -1,0 +1,76 @@
+From: Go-For-It! DBus Integration
+Date: 2024-02-11
+Subject: Add DBus support for timer control
+
+---
+ src/Main.vala         | 35 +++++++++++++++++++++++++++++++++++
+ src/CMakeLists.txt    |  1 +
+ 2 files changed, 36 insertions(+)
+
+diff --git a/src/Main.vala b/src/Main.vala
+index 123456..789abc 100644
+--- a/src/Main.vala
++++ b/src/Main.vala
+@@ -26,6 +26,8 @@ namespace GOFI {
+     private TaskTimer task_timer;
+     private MainWindow win;
+     private Notifications notification_service;
++    private TimerDBusService dbus_service;
++    private DBusConnection dbus_connection;
+ }
+ 
+ errordomain GOFIParseError {
+@@ -72,6 +74,9 @@ class GOFI.Main : Gtk.Application {
+             // Enable Notifications for the App
+             notification_service = new Notifications (this);
+             task_timer.timer_finished.connect (on_timer_elapsed);
++            
++            // Setup DBus service for external integration
++            setup_dbus_service ();
+         }
+     }
+ 
++    private void setup_dbus_service () {
++        if (dbus_service == null) {
++            dbus_service = new TimerDBusService (task_timer);
++            try {
++                dbus_service.initialize ();
++            } catch (Error e) {
++                warning ("Failed to initialize DBus service: %s", e.message);
++                return;
++            }
++            
++            try {
++                dbus_connection = Bus.get_sync (BusType.SESSION);
++                dbus_connection.register_object ("/com/github/jmoerman/goforit/Timer", (TimerDBusInterface) dbus_service);
++                
++                Bus.own_name (BusType.SESSION, "com.github.jmoerman.goforit.Timer", 
++                    BusNameOwnerFlags.REPLACE,
++                    () => {
++                        message ("DBus service name acquired successfully");
++                    },
++                    () => {},
++                    () => warning ("Could not acquire DBus service name")
++                );
++            } catch (IOError e) {
++                warning ("Failed to register DBus object: %s", e.message);
++            } catch (Error e) {
++                warning ("Failed to setup DBus service: %s", e.message);
++            }
++        }
++    }
++
+     /**
+      * Constructor of the Application class.
+      */
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 123456..789abc 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -55,6 +55,7 @@ vala_precompile (VALA_C ${LIBNAME}
+     Services/SoundPlayer.vala
+     Services/Notifications.vala
++    Services/TimerDBusService.vala
+     Widgets/TodoListInfoRow.vala
+     Widgets/DragListModel.vala
+     Widgets/DragListRowBox.vala

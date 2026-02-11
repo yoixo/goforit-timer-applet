@@ -2,12 +2,29 @@
 
 This directory contains the patches needed to add DBus support to Go-For-It!
 
+## Quick Install (Automated) ⭐
+
+The easiest way to apply patches:
+
+```bash
+cd go-for-it-dbus
+./apply-dbus-patches.sh
+```
+
+This script will:
+1. ✅ Check dependencies
+2. ✅ Find or clone Go-For-It!
+3. ✅ Apply patches automatically
+4. ✅ Compile with DBus support
+5. ✅ Install (optional)
+
 ## Files
 
 - `TimerDBusService.vala` - DBus service implementation
-- `Main.vala` - Modified main application file
-- `go-for-it.vala` - Modified entry point
-- `CMakeLists.txt` - Modified build configuration
+- `apply-dbus-patches.sh` - Automated patching script ⭐
+- `Main.vala` - Modified main application file (reference)
+- `go-for-it.vala` - Modified entry point (reference)
+- `CMakeLists.txt` - Modified build configuration (reference)
 
 ## DBus Interface
 
@@ -42,7 +59,15 @@ This directory contains the patches needed to add DBus support to Go-For-It!
 sudo apt install build-essential cmake valac libgtk-3-dev libcanberra-dev
 ```
 
-### Apply Patches
+### Option 1: Automated (Recommended)
+
+```bash
+./apply-dbus-patches.sh
+```
+
+### Option 2: Manual
+
+If you prefer to apply patches manually:
 
 ```bash
 # Clone Go-For-It!
@@ -51,9 +76,12 @@ cd Go-For-It
 
 # Copy DBus files
 cp /path/to/goforit-timer-applet/go-for-it-dbus/TimerDBusService.vala src/Services/
-cp /path/to/goforit-timer-applet/go-for-it-dbus/Main.vala src/
-cp /path/to/goforit-timer-applet/go-for-it-dbus/go-for-it.vala executable/
-cp /path/to/goforit-timer-applet/go-for-it-dbus/CMakeLists.txt src/
+
+# Edit src/CMakeLists.txt - add after Services/Notifications.vala:
+# Services/TimerDBusService.vala
+
+# Edit src/Main.vala - add the DBus service initialization
+# (see TimerDBusService.vala for the complete setup_dbus_service method)
 
 # Build
 rm -rf build && mkdir build && cd build

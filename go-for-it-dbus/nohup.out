@@ -1,0 +1,189 @@
+Gjs-Message: 10:52:39.925: Profiler is disabled. Not setting up signals.
+Gjs-Message: 10:52:40.269: JS LOG: About to start Cinnamon (X11 backend)
+Gjs-Message: 10:52:40.330: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 0 ms
+Gjs-Message: 10:52:40.333: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Mint-Y-Dark-Sand/cinnamon/cinnamon.css
+Gjs-Message: 10:52:40.348: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Mint-Y-Dark-Sand/cinnamon
+Gjs-Message: 10:52:40.510: JS LOG: [LookingGlass/info] NetworkManager agent: enabled
+Gjs-Message: 10:52:40.516: JS LOG: [LookingGlass/info] Polkit agent: enabled
+Gjs-Message: 10:52:40.517: JS LOG: [LookingGlass/info] SSH agent: enabled
+Gjs-Message: 10:52:40.526: JS LOG: [LookingGlass/info] loaded at Wed Feb 11 2026 10:52:40 GMT-0400 (Venezuela Time)
+Gjs-Message: 10:52:40.526: JS LOG: Cinnamon started at Wed Feb 11 2026 10:52:40 GMT-0400 (Venezuela Time)
+Gjs-Message: 10:52:40.541: JS LOG: [LookingGlass/info] ExtensionSystem started in 1 ms
+Gjs-Message: 10:52:40.541: JS LOG: [LookingGlass/info] DeskletManager started in 1 ms
+Gjs-Message: 10:52:40.541: JS LOG: [LookingGlass/info] SearchProviderManager started in 0 ms
+Gjs-Message: 10:52:40.779: JS LOG: [LookingGlass/info] Role locked: tray
+Gjs-Message: 10:52:40.783: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 64 ms
+Gjs-Message: 10:52:40.827: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 44 ms
+Gjs-Message: 10:52:40.835: JS LOG: [LookingGlass/info] Loaded applet separator@cinnamon.org in 8 ms
+Gjs-Message: 10:52:40.845: JS LOG: [LookingGlass/info] Loaded applet moonphase@techi-freki in 10 ms
+Gjs-Message: 10:52:40.853: JS LOG: [LookingGlass/info] Loaded applet goforit-timer@local in 8 ms
+Gjs-Message: 10:52:40.857: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 4 ms
+Gjs-Message: 10:52:40.878: JS LOG: [LookingGlass/info] Loaded applet calendar@simonwiles.net in 21 ms
+Gjs-Message: 10:52:40.884: JS LOG: [LookingGlass/info] Loaded applet cornerbar@cinnamon.org in 6 ms
+Gjs-Message: 10:52:40.887: JS LOG: [LookingGlass/info] Role locked: notifications
+Gjs-Message: 10:52:40.893: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 9 ms
+Gjs-Message: 10:52:40.908: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 14 ms
+Gjs-Message: 10:52:40.908: JS LOG: [LookingGlass/info] Loaded applet separator@cinnamon.org in 0 ms
+Gjs-Message: 10:52:40.919: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 11 ms
+Gjs-Message: 10:52:40.925: JS LOG: [LookingGlass/info] Loaded applet workspace-switcher@cinnamon.org in 6 ms
+Gjs-Message: 10:52:40.941: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 16 ms
+Gjs-Message: 10:52:40.967: JS LOG: [LookingGlass/info] Loaded applet shutdown-timer@webum.by in 26 ms
+Gjs-Message: 10:52:41.019: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 52 ms
+Gjs-Message: 10:52:41.032: JS LOG: [LookingGlass/info] Role locked: panellauncher
+Gjs-Message: 10:52:41.032: JS LOG: [LookingGlass/info] Role locked: windowattentionhandler
+Gjs-Message: 10:52:41.035: JS LOG: [LookingGlass/info] Monitor Watch List updated: [0]
+Gjs-Message: 10:52:41.035: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 16 ms
+Gjs-Message: 10:52:41.062: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 27 ms
+Gjs-Message: 10:52:41.064: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: sticky (:1.541/org/x/StatusIcon/Icon)
+Gjs-Message: 10:52:41.072: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintreport (:1.581/org/x/StatusIcon/Icon)
+Gjs-Message: 10:52:41.074: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: process-monitor (:1.581/org/x/StatusIcon/Icon_1)
+Gjs-Message: 10:52:41.076: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintUpdate.py (:1.567/org/x/StatusIcon/Icon)
+Gjs-Message: 10:52:41.078: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: nextcloud (:1.504/org/x/StatusIcon/Icon_2)
+Gjs-Message: 10:52:41.081: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: blueman (:1.504/org/x/StatusIcon/Icon)
+Gjs-Message: 10:52:41.083: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: megasync (:1.504/org/x/StatusIcon/Icon_3)
+Gjs-Message: 10:52:41.085: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: copyq (:1.504/org/x/StatusIcon/Icon_1)
+
+(cinnamon:48841): Clutter-WARNING **: 10:52:41.087: Failed to set the markup of the actor 'ClutterText': Error on line 2: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+Gjs-Message: 10:52:41.156: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 94 ms
+Gjs-Message: 10:52:41.286: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 130 ms
+Gjs-Message: 10:52:41.287: JS LOG: [LookingGlass/info] AppletManager started in 759 ms
+Gjs-Message: 10:52:41.290: JS LOG: [LookingGlass/info] Cinnamon took 1021 ms to start
+Gjs-Message: 10:52:41.324: JS LOG: Unknown network device type, is 32
+Gjs-Message: 10:52:41.334: JS LOG: Unknown network device type, is 13
+Gjs-Message: 10:52:41.334: JS LOG: Unknown network device type, is 16
+Gjs-Message: 10:52:41.334: JS LOG: Unknown network device type, is 13
+Gjs-Message: 10:52:41.334: JS LOG: Unknown network device type, is 13
+Gjs-Message: 10:52:41.334: JS LOG: Unknown network device type, is 13
+Gjs-Message: 10:52:41.334: JS LOG: Unknown network device type, is 20
+Gjs-Message: 10:52:41.334: JS LOG: Unknown network device type, is 20
+Gjs-Message: 10:52:41.334: JS LOG: Unknown network device type, is 20
+Gjs-Message: 10:52:41.362: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:52:41.654: JS LOG: [LookingGlass/info] GPU offload supported: false
+Window manager warning: notification-clear-5 - Overwriting existing binding of keysym 63 with keysym 63 (keycode 36).
+Gjs-Message: 10:52:44.051: JS LOG: [LookingGlass/info] Adding XAppStatusIcon:  (:1.504/org/x/StatusIcon/Icon_4)
+Gjs-Message: 10:52:45.042: JS LOG: Enabling WindowAttentionHandler
+Gjs-Message: 10:54:02.830: JS LOG: [LookingGlass/info] Reloading applet: systray@cinnamon.org/3
+Gjs-Message: 10:54:02.832: JS LOG: [LookingGlass/info] Reloading applet: xapp-status@cinnamon.org/4
+Gjs-Message: 10:54:02.836: JS LOG: [LookingGlass/info] Reloading applet: notifications@cinnamon.org/5
+Gjs-Message: 10:54:02.837: JS LOG: [LookingGlass/info] Reloading applet: printers@cinnamon.org/6
+Gjs-Message: 10:54:02.837: JS LOG: [LookingGlass/info] Reloading applet: removable-drives@cinnamon.org/7
+Gjs-Message: 10:54:02.837: JS LOG: [LookingGlass/info] Reloading applet: keyboard@cinnamon.org/8
+Gjs-Message: 10:54:02.838: JS LOG: [LookingGlass/info] Reloading applet: favorites@cinnamon.org/9
+Gjs-Message: 10:54:02.839: JS LOG: [LookingGlass/info] Reloading applet: network@cinnamon.org/10
+Gjs-Message: 10:54:02.839: JS LOG: [LookingGlass/info] Reloading applet: sound@cinnamon.org/11
+Gjs-Message: 10:54:02.840: JS LOG: [LookingGlass/info] Reloading applet: power@cinnamon.org/12
+Gjs-Message: 10:54:02.841: JS LOG: [LookingGlass/info] Reloading applet: cornerbar@cinnamon.org/14
+Gjs-Message: 10:54:02.841: JS LOG: [LookingGlass/info] Reloading applet: workspace-switcher@cinnamon.org/17
+Gjs-Message: 10:54:02.841: JS LOG: [LookingGlass/info] Reloading applet: shutdown-timer@webum.by/19
+Gjs-Message: 10:54:02.842: JS LOG: [LookingGlass/info] Reloading applet: calendar@simonwiles.net/25
+Gjs-Message: 10:54:02.843: JS LOG: [LookingGlass/info] Reloading applet: moonphase@techi-freki/27
+Gjs-Message: 10:54:02.843: JS LOG: [LookingGlass/info] Reloading applet: separator@cinnamon.org/30
+Gjs-Message: 10:54:02.852: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.890: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.909: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.910: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.918: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.919: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.919: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.920: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.920: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.921: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.922: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.924: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.925: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.926: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.928: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.928: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.929: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.929: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.930: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.930: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.931: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.931: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.932: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.932: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.954: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:02.954: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 10:54:03.065: JS LOG: Unknown network device type, is 32
+Gjs-Message: 10:54:03.071: JS LOG: Unknown network device type, is 13
+Gjs-Message: 10:54:03.071: JS LOG: Unknown network device type, is 16
+Gjs-Message: 10:54:03.071: JS LOG: Unknown network device type, is 13
+Gjs-Message: 10:54:03.072: JS LOG: Unknown network device type, is 13
+Gjs-Message: 10:54:03.072: JS LOG: Unknown network device type, is 13
+Gjs-Message: 10:54:03.072: JS LOG: Unknown network device type, is 20
+Gjs-Message: 10:54:03.072: JS LOG: Unknown network device type, is 20
+Gjs-Message: 10:54:03.072: JS LOG: Unknown network device type, is 20
+Gjs-Message: 10:54:03.075: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintreport (:1.581/org/x/StatusIcon/Icon)
+Gjs-Message: 10:54:03.078: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: process-monitor (:1.581/org/x/StatusIcon/Icon_1)
+Gjs-Message: 10:54:03.080: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintUpdate.py (:1.567/org/x/StatusIcon/Icon)
+Gjs-Message: 10:54:03.082: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: com.github.jmoerman.go-for-it (:1.504/org/x/StatusIcon/Icon_4)
+Gjs-Message: 10:54:03.087: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: nextcloud (:1.504/org/x/StatusIcon/Icon_2)
+Gjs-Message: 10:54:03.090: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: blueman (:1.504/org/x/StatusIcon/Icon)
+Gjs-Message: 10:54:03.093: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: megasync (:1.504/org/x/StatusIcon/Icon_3)
+Gjs-Message: 10:54:03.097: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: copyq (:1.504/org/x/StatusIcon/Icon_1)
+Gjs-Message: 10:54:03.102: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: sticky (:1.541/org/x/StatusIcon/Icon)
+Window manager warning: calendar@simonwiles.net - Overwriting existing binding of keysym 63 with keysym 63 (keycode 36).
+Gjs-Message: 11:00:06.698: JS LOG: [LookingGlass/info] Updating user
+Window manager warning: META_CURRENT_TIME used to choose focus window; focus window may not be correct.
+Gjs-Message: 11:06:06.072: Profiler is disabled. Not setting up signals.
+Gjs-Message: 11:06:06.225: JS LOG: About to start Cinnamon (X11 backend)
+Gjs-Message: 11:06:06.257: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 0 ms
+Gjs-Message: 11:06:06.260: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Mint-Y-Dark-Sand/cinnamon/cinnamon.css
+Gjs-Message: 11:06:06.272: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Mint-Y-Dark-Sand/cinnamon
+Gjs-Message: 11:06:06.384: JS LOG: [LookingGlass/info] NetworkManager agent: enabled
+Gjs-Message: 11:06:06.388: JS LOG: [LookingGlass/info] Polkit agent: enabled
+Gjs-Message: 11:06:06.389: JS LOG: [LookingGlass/info] SSH agent: enabled
+Gjs-Message: 11:06:06.394: JS LOG: [LookingGlass/info] loaded at Wed Feb 11 2026 11:06:06 GMT-0400 (Venezuela Time)
+Gjs-Message: 11:06:06.394: JS LOG: Cinnamon started at Wed Feb 11 2026 11:06:06 GMT-0400 (Venezuela Time)
+Gjs-Message: 11:06:06.405: JS LOG: [LookingGlass/info] ExtensionSystem started in 0 ms
+Gjs-Message: 11:06:06.405: JS LOG: [LookingGlass/info] DeskletManager started in 0 ms
+Gjs-Message: 11:06:06.406: JS LOG: [LookingGlass/info] SearchProviderManager started in 1 ms
+Gjs-Message: 11:06:06.554: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 24 ms
+Gjs-Message: 11:06:06.585: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 29 ms
+Gjs-Message: 11:06:06.588: JS LOG: [LookingGlass/info] Role locked: tray
+Gjs-Message: 11:06:06.592: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 7 ms
+Gjs-Message: 11:06:06.617: JS LOG: [LookingGlass/info] Role locked: notifications
+Gjs-Message: 11:06:06.625: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 33 ms
+Gjs-Message: 11:06:06.637: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 12 ms
+Gjs-Message: 11:06:06.653: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 16 ms
+Gjs-Message: 11:06:06.659: JS LOG: [LookingGlass/info] Loaded applet goforit-timer@local in 6 ms
+Gjs-Message: 11:06:06.667: JS LOG: [LookingGlass/info] Loaded applet moonphase@techi-freki in 8 ms
+Gjs-Message: 11:06:06.674: JS LOG: [LookingGlass/info] Loaded applet separator@cinnamon.org in 7 ms
+Gjs-Message: 11:06:06.674: JS LOG: [LookingGlass/info] Loaded applet separator@cinnamon.org in 0 ms
+Gjs-Message: 11:06:06.685: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 11 ms
+Gjs-Message: 11:06:06.692: JS LOG: [LookingGlass/info] Loaded applet workspace-switcher@cinnamon.org in 7 ms
+Gjs-Message: 11:06:06.712: JS LOG: [LookingGlass/info] Loaded applet calendar@simonwiles.net in 20 ms
+Gjs-Message: 11:06:06.731: JS LOG: [LookingGlass/info] Loaded applet shutdown-timer@webum.by in 19 ms
+Gjs-Message: 11:06:06.740: JS LOG: [LookingGlass/info] Loaded applet cornerbar@cinnamon.org in 9 ms
+Gjs-Message: 11:06:06.772: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 32 ms
+Gjs-Message: 11:06:06.791: JS LOG: [LookingGlass/info] Role locked: panellauncher
+Gjs-Message: 11:06:06.791: JS LOG: [LookingGlass/info] Role locked: windowattentionhandler
+Gjs-Message: 11:06:06.794: JS LOG: [LookingGlass/info] Monitor Watch List updated: [0]
+Gjs-Message: 11:06:06.794: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 22 ms
+Gjs-Message: 11:06:06.796: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintreport (:1.581/org/x/StatusIcon/Icon)
+Gjs-Message: 11:06:06.800: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: process-monitor (:1.581/org/x/StatusIcon/Icon_1)
+Gjs-Message: 11:06:06.801: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintUpdate.py (:1.567/org/x/StatusIcon/Icon)
+Gjs-Message: 11:06:06.803: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: sticky (:1.541/org/x/StatusIcon/Icon)
+Gjs-Message: 11:06:06.810: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: com.github.jmoerman.go-for-it (:1.504/org/x/StatusIcon/Icon_4)
+Gjs-Message: 11:06:06.815: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: nextcloud (:1.504/org/x/StatusIcon/Icon_2)
+Gjs-Message: 11:06:06.818: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: blueman (:1.504/org/x/StatusIcon/Icon)
+Gjs-Message: 11:06:06.823: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: megasync (:1.504/org/x/StatusIcon/Icon_3)
+Gjs-Message: 11:06:06.827: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: copyq (:1.504/org/x/StatusIcon/Icon_1)
+Gjs-Message: 11:06:06.917: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 123 ms
+Gjs-Message: 11:06:06.933: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 16 ms
+Gjs-Message: 11:06:07.090: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 157 ms
+Gjs-Message: 11:06:07.091: JS LOG: [LookingGlass/info] AppletManager started in 696 ms
+Gjs-Message: 11:06:07.095: JS LOG: [LookingGlass/info] Cinnamon took 869 ms to start
+Gjs-Message: 11:06:07.138: JS LOG: Unknown network device type, is 32
+Gjs-Message: 11:06:07.146: JS LOG: Unknown network device type, is 13
+Gjs-Message: 11:06:07.146: JS LOG: Unknown network device type, is 16
+Gjs-Message: 11:06:07.146: JS LOG: Unknown network device type, is 13
+Gjs-Message: 11:06:07.146: JS LOG: Unknown network device type, is 13
+Gjs-Message: 11:06:07.146: JS LOG: Unknown network device type, is 13
+Gjs-Message: 11:06:07.146: JS LOG: Unknown network device type, is 20
+Gjs-Message: 11:06:07.146: JS LOG: Unknown network device type, is 20
+Gjs-Message: 11:06:07.146: JS LOG: Unknown network device type, is 20
+Gjs-Message: 11:06:07.173: JS LOG: [LookingGlass/info] Adding systray: input-method (32x32px)
+Gjs-Message: 11:06:07.405: JS LOG: [LookingGlass/info] GPU offload supported: false
+Window manager warning: calendar@simonwiles.net - Overwriting existing binding of keysym 63 with keysym 63 (keycode 36).
+Gjs-Message: 11:06:11.042: JS LOG: Enabling WindowAttentionHandler
