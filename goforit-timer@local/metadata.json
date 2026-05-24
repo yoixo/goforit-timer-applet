@@ -4,7 +4,9 @@
     "description": "Displays and controls Go-For-It! timer from the Cinnamon panel",
     "version": "1.0",
     "cinnamon-version": [
-        "6.4"
+        "6.4",
+        "6.6",
+        "6.8"
     ],
     "author": "Cinnamon Applet Developer",
     "url": "https://github.com/JMoerman/Go-For-It",
